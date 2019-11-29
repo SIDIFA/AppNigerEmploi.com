@@ -1,0 +1,58 @@
+<resources>
+    <string name="app_name">Niger Emploi</string>
+    <!-- Used in NavigationDrawer -->
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="menu_search">search</string>
+    <string name="app_names">ToolbarSearchview</string>
+    <string name="title_activity_main2">Main2Activity</string>
+    <string name="title_home">Home</string>
+    <string name="title_dashboard">Dashboard</string>
+    <string name="title_notifications">Notifications</string>
+
+
+    <!--Mot clés -->
+    <string name="motcletype1">Praise</string>
+    <string name="motcletype2">Gripe</string>
+    <string name="motcletype3">Suggestion</string>
+    <string name="motcletype4">Bug</string>
+
+    <!--Secteur -->
+    <string name="secteurtype1">Tous les articles</string>
+    <string name="secteurtype2">Administration-Gestion</string>
+    <string name="secteurtype3">Agriculture-Elevage-Mde-Rural</string>
+    <string name="secteurtype4">Auxilliaires-de-service</string>
+    <string name="secteurtype5">Bénévolat-Associatif</string>
+    <string name="secteurtype6">BTP-Immobilier</string>
+    <string name="secteurtype7">Communication-Journalisme</string>
+    <string name="secteurtype8">Consultation</string>
+    <string name="secteurtype9">Défense-Sécurité</string>
+    <string name="secteurtype10">Direction-Management</string>
+    <string name="secteurtype11">Droit-Juridique</string>
+    <string name="secteurtype12">Eau-Hygiène-Assainissement</string>
+    <string name="secteurtype13">Economie-Finance</string>
+    <string name="secteurtype14">Education</string>
+    <string name="secteurtype15">Enseignement-Recherches</string>
+    <string name="secteurtype16">Entretien-Nettoyage</string>
+    <string name="secteurtype17">Environnement-Dev, durable</string>
+    <string name="secteurtype18"></string>
+    <string name="secteurtype19">Suggestion</string>
+    <string name="secteurtype20">Bug</string>
+    <string name="secteurtype21">Praise</string>
+    <string name="secteurtype22">Gripe</string>
+    <string name="secteurtype23">Suggestion</string>
+    <string name="secteurtype24">Bug</string>
+    <string name="secteurtype25">Praise</string>
+    <string name="secteurtype26">Gripe</string>
+    <string name="secteurtype27">Suggestion</string>
+    <string name="secteurtype28">Bug</string>
+    <string name="secteurtype29">Praise</string>
+    <string name="secteurtype30">Gripe</string>
+    <string name="secteurtype31">Suggestion</string>
+    <string name="secteurtype32">Bug</string>
+    <string name="secteurtype33">Bug</string>
+
+</resources>

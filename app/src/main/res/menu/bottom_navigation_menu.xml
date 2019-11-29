@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/activity_main_drawer_annonces"
+        android:icon="@drawable/ic_offre"
+        android:title="Annonces"/>
+    <item
+        android:id="@+id/activity_main_drawer_categories"
+        android:icon="@drawable/ic_categorie"
+        android:title="Categories"/>
+    <item
+        android:id="@+id/activity_main_drawer_search"
+        android:icon="@drawable/ic_search"
+        android:title="Recherche"/>
+    <item
+        android:id="@+id/activity_main_drawer_favoris"
+        android:icon="@drawable/ic_favoris"
+        android:title="Mes favoris"/>
+
+</menu>

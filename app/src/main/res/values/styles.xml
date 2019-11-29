@@ -1,0 +1,144 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorNiger</item>
+        <item name="colorPrimaryDark">@color/colorNiger</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <!-- Toolbar theme. -->
+    <style name="ToolBarStyle" parent="AppTheme">
+        <item name="android:textColorPrimary">@android:color/white</item>
+        <item name="colorControlNormal">@android:color/white</item>
+    </style>
+
+    <!-- TOOLBAR THEME -->
+    <style name="ToolbarTheme" parent="@style/ThemeOverlay.AppCompat.Dark.ActionBar">
+        <!-- Color of the title text in the Toolbar -->
+        <item name="android:textColorPrimary">@color/colorAccents</item>
+    </style>
+
+    <!-- TOOLBAR TITLE THEME -->
+    <style name="Toolbar.TitleText" parent="TextAppearance.Widget.AppCompat.Toolbar.Title">
+        <item name="android:textSize">21sp</item>
+        <item name="android:textStyle">italic</item>
+    </style>
+
+    <style name="GlideSliderCardStyle" parent="Base.CardView">
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:layout_width">match_parent</item>
+    </style>
+
+    <style name="GlideSliderBackgroundStyle">
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:background">@color/glide_slider_background_color</item>
+    </style>
+
+    <style name="GlideSliderImageStyle">
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:layout_width">match_parent</item>
+    </style>
+
+    <style name="GlideSliderLoadingStyle" parent="Base.Widget.AppCompat.ProgressBar">
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_centerInParent">true</item>
+    </style>
+
+    <style name="GlideSliderDescriptionBackgroundStyle">
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_alignParentBottom">true</item>
+        <item name="android:background">@color/glide_slider_description_background_color</item>
+        <item name="android:gravity">center_vertical</item>
+        <item name="android:minHeight">30dp</item>
+        <item name="android:orientation">vertical</item>
+        <item name="android:paddingLeft">10dp</item>
+        <item name="android:paddingRight">10dp</item>
+    </style>
+
+    <style name="TextAppearance">
+        <item name="android:ellipsize">end</item>
+    </style>
+
+    <style name="GlideSliderDescriptionTextStyle" parent="android:Widget.TextView">
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:textColor">@color/glide_slider_description_color</item>
+        <item name="android:fontFamily" tools:targetApi="jelly_bean">sans-serif</item>
+    </style>
+
+    <!--Secteur -->
+
+    <string-array name="secteur">
+        <item>Tous les articles</item>
+        <item>Agriculture-Elevage-Mde-Rural</item>
+        <item>Auxilliaires-de-service</item>
+        <item>Bénévolat-Associatif</item>
+        <item>BTP-Immobilier</item>
+        <item>Communication-Journalisme</item>
+        <item>Consultation</item>
+        <item>Défense-Sécurité</item>
+        <item>Direction-Management</item>
+        <item>Droit-Juridique</item>
+        <item>Eau-Hygiène-Assainissement</item>
+        <item>Economie-Finance</item>
+        <item>Education</item>
+        <item>Enseignement-Recherches</item>
+        <item>Entretien-Nettoyage</item>
+        <item>Environnement-Dev, durable</item>
+        <item>Formation-Coaching</item>
+        <item>Humanitaire</item>
+        <item>Informatique-TIC-Télécom</item>
+        <item>Logistique-Transport</item>
+        <item>Marketing-Vente</item>
+        <item>Prestation de service</item>
+        <item>Ressources Humaines</item>
+        <item>Santé-Médecine-Pharmacie</item>
+        <item>Sciences-Techniques</item>
+        <item>Secrétariat</item>
+        <item>Sécurité-Gardienage</item>
+        <item>Social</item>
+        <item>Statistique</item>
+        <item>Suivi-évaluation</item>
+        <item>Tourisme-Tôtelierie-Restauration</item>
+        <item>Autre</item>
+    </string-array>
+
+    <string-array name="contrat">
+        <item>Tous les contrats</item>
+        <item>Annonce</item>
+        <item>AO</item>
+        <item>CDD</item>
+        <item>CDD-R</item>
+        <item>CDI</item>
+        <item>Concours</item>
+        <item>Consultation</item>
+        <item>Formation</item>
+        <item>Intérim</item>
+        <item>MI</item>
+        <item>Stage</item>
+        <item>Autre</item>
+    </string-array>
+
+    <string-array name="lieu">
+        <item>Tous les lieux</item>
+        <item>Niamey</item>
+        <item>Abala</item>
+        <item>Agadez</item>
+        <item>Arlit</item>
+        <item>Ayorou</item>
+        <item>Casablanca</item>
+        <item>Diffa</item>
+        <item>Divers</item>
+        <item>Hamdallaye</item>
+        <item>Illela</item>
+        <item>Konni</item>
+        <item>Madaoua</item>
+        <item>Autre</item>
+    </string-array>
+
+</resources>

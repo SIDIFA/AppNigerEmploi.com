@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<shape xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:state_pressed="false" android:drawable="@android:color/white" ></item>
+    <item android:state_pressed="true" android:drawable="@color/colorPrimary" ></item>
+    <solid android:color="#fff"/>
+    <stroke android:width="0.3dip" android:color="#928D8D" />
+    <corners android:radius="0dip"/>
+    <padding android:left="6dip" android:top="6dip" android:right="6dip" android:bottom="6dip" />
+
+</shape>

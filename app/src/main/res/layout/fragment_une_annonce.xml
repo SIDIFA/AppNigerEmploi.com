@@ -1,0 +1,344 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Controllers.Fragments.UneAnnonce"
+    android:background="#999"
+    android:orientation="vertical">
+
+    <!-- TODO: Update blank fragment layout -->
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+    <!-- Titre annonce -->
+    <android.support.v7.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp"
+        android:layout_marginTop="5dp"
+        android:padding="5dp"
+        android:background="@drawable/logo_cadre">
+        <TextView
+            android:id="@+id/aa_titre"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_margin="2dp"
+            android:text="Ingénieur Télécoms BSS"
+            android:textColor="@color/colorNiger"
+            android:textAppearance="@style/TextAppearance.AppCompat"
+            android:textSize="18dp"
+            android:textStyle="bold"/>
+    </android.support.v7.widget.CardView>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:background="@drawable/bg_datefin"
+                android:layout_marginLeft="5dp"
+                android:layout_marginRight="5dp"
+                android:layout_marginTop="5dp">
+                <TextView
+                    android:id="@+id/aa_organisme"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:drawableLeft="@drawable/ic_account_balance_black_24dp"
+                    android:text="Orange Niger"
+                    android:textSize="15dp" />
+
+                <TextView
+                    android:id="@+id/aa_secteur"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="15dp"
+                    android:drawableLeft="@drawable/ic_local_offer_black_24dp"
+                    android:text="Aministration Gestion"
+                    android:textSize="15dp" />
+            </LinearLayout>
+
+    <!-- Layout du centre -->
+            <android.support.constraint.ConstraintLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/bg_datefin"
+                android:layout_marginLeft="5dp"
+                android:layout_marginRight="5dp"
+                android:layout_marginTop="5dp">
+
+                <!-- Layout de gauche-->
+                <LinearLayout
+                    android:id="@+id/linearLayout"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginEnd="5dp"
+                    android:layout_marginBottom="8dp"
+                    android:orientation="vertical"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintEnd_toStartOf="@+id/img_cadre"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent">
+
+                    <TextView
+                        android:id="@+id/aa_contrat"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="15dp"
+                        android:drawableLeft="@drawable/ic_description_black_24dp"
+                        android:text="CDD"
+                        android:textSize="15dp" />
+
+                    <TextView
+                        android:id="@+id/aa_lieu"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="15dp"
+                        android:drawableLeft="@drawable/ic_location_on_black_24dp"
+                        android:text="Niamey"
+                        android:textSize="15dp" />
+
+                    <TextView
+                        android:id="@+id/aa_niveau"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="15dp"
+                        android:drawableLeft="@drawable/ic_school_black_24dp"
+                        android:text="Bac + 4"
+                        android:textSize="15dp" />
+
+                    <TextView
+                        android:id="@+id/aa_validateDate"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="15dp"
+                        android:drawableLeft="@drawable/ic_event_busy_black_24dp"
+                        android:text="18-09-1994"
+                        android:textColor="#FF0000"
+                        android:textSize="15dp"
+                        android:textStyle="bold" />
+
+
+                </LinearLayout>
+
+                <!-- Layout de droite -->
+                <LinearLayout
+                    android:id="@+id/img_cadre"
+                    android:layout_width="140dp"
+                    android:layout_height="140dp"
+                    android:layout_marginStart="8dp"
+                    android:layout_marginBottom="8dp"
+                    android:orientation="vertical"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toEndOf="@+id/linearLayout"
+                    app:layout_constraintTop_toTopOf="parent">
+
+                    <ImageView
+                        android:id="@+id/aa_logo"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:background="@drawable/logo_cadre"
+                        android:padding="2dp"
+                        android:layout_marginBottom="0dp" />
+
+
+                </LinearLayout>
+
+            </android.support.constraint.ConstraintLayout>
+
+    <!-- pied -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center_horizontal"
+        android:background="@drawable/bg_datefin"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp"
+        android:layout_marginTop="5dp">
+
+        <TextView
+            android:id="@+id/facebook"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="15dp"
+            android:drawableLeft="@drawable/ic_facebooks" />
+
+        <TextView
+            android:id="@+id/twitter"
+            android:layout_marginRight="15dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:drawableLeft="@drawable/ic_twitters"/>
+
+        <TextView
+            android:id="@+id/google"
+            android:layout_marginRight="15dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:drawableLeft="@drawable/ic_google"/>
+
+        <TextView
+            android:id="@+id/whatsapp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:drawableLeft="@drawable/ic_whatsapp"/>
+        <ImageView
+            android:id="@+id/favoris"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="40dp"
+            android:src="@drawable/ic_favorite_border_black_36dp" />
+
+    </LinearLayout>
+
+    <!-- layout contact -->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/bg_datefin"
+                android:layout_marginLeft="5dp"
+                android:layout_marginRight="5dp"
+                android:layout_marginTop="5dp"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/aa_formation"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:drawableLeft="@drawable/ic_library_books_black_24dp"
+                    android:text="Formation"
+                    android:textSize="15dp" />
+
+                <TextView
+                    android:id="@+id/aa_experience"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="15dp"
+                    android:drawableLeft="@drawable/ic_av_timer_black_24dp"
+                    android:text="Experience"
+                    android:textSize="15dp" />
+
+                <TextView
+                    android:id="@+id/aa_langue"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="15dp"
+                    android:drawableLeft="@drawable/ic_language_black_24dp"
+                    android:text="Langues"
+                    android:textSize="15dp" />
+
+            </LinearLayout>
+
+    <!-- layout description -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp"
+        android:background="@drawable/bg_datefin"
+        android:layout_marginTop="5dp"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Description"
+            android:textSize="20dp"
+            android:textColor="@color/colorNiger"
+            android:textStyle="bold"
+            android:drawableLeft="@drawable/ic_card_travel_black_24dp"/>
+
+        <TextView
+            android:id="@+id/aa_description"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="15dp"/>
+
+    </LinearLayout>
+
+    <!-- layout condition-->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp"
+        android:layout_marginTop="5dp"
+        android:background="@drawable/bg_datefin"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Conditions"
+            android:textSize="20dp"
+            android:textStyle="bold"
+            android:textColor="@color/colorNiger"
+            android:drawableLeft="@drawable/ic_view_list_black_24dp"/>
+
+        <TextView
+            android:id="@+id/aa_condition"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="15dp"
+            android:textStyle="bold"/>
+
+    </LinearLayout>
+
+    <!-- layout contact -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/bg_datefin"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp"
+        android:layout_marginTop="5dp"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/aa_contact"
+            android:layout_marginTop="15dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Bureau PSI"
+            android:textSize="15dp"
+            android:drawableLeft="@drawable/ic_info_black_24dp"/>
+
+        <TextView
+            android:id="@+id/aa_couriel"
+            android:layout_marginTop="15dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="sidikisidibe81@gmail.com"
+            android:textSize="15dp"
+            android:drawableLeft="@drawable/ic_email_black_24dp"/>
+
+        <TextView
+            android:id="@+id/aa_siteweb"
+            android:layout_marginTop="15dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="www.monsite.com"
+            android:textSize="15dp"
+            android:drawableLeft="@drawable/ic_language_black_24dp"/>
+
+        <TextView
+            android:id="@+id/aa_telephone"
+            android:layout_marginTop="15dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="33 888 20 20"
+            android:textSize="15dp"
+            android:drawableLeft="@drawable/ic_local_phone_black_24dp"/>
+
+    </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

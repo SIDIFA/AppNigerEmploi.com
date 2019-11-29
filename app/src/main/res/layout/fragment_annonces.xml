@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:custom="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:background="@android:color/darker_gray"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="200dp">
+
+        <com.glide.slider.library.SliderLayout
+            android:id="@+id/slider"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            tools:ignore="InvalidId">
+
+            <com.glide.slider.library.Indicators.PagerIndicator
+                android:id="@+id/custom_indicator"
+                android:layout_width="200dp"
+                android:layout_height="18dp"
+                android:layout_alignParentBottom="true"
+                android:layout_centerHorizontal="true"
+                android:layout_marginBottom="10dp"
+                android:gravity="center"
+                custom:selected_color="#339900"
+                custom:selected_height="8dp"
+                custom:selected_padding_left="3dp"
+                custom:selected_padding_right="3dp"
+                custom:selected_width="8dp"
+                custom:shape="oval"
+                custom:unselected_color="#FFFF"
+                custom:unselected_height="6dp"
+                custom:unselected_padding_left="3dp"
+                custom:unselected_padding_right="3dp"
+                custom:unselected_width="6dp">
+
+            </com.glide.slider.library.Indicators.PagerIndicator>
+
+        </com.glide.slider.library.SliderLayout>
+
+    </RelativeLayout>
+
+    <android.support.v4.widget.SwipeRefreshLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/fragment_main_swipe_container">
+
+        <android.support.v7.widget.RecyclerView
+            android:id="@+id/ma_vue"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+    </android.support.v4.widget.SwipeRefreshLayout>
+
+</LinearLayout>

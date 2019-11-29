@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+        <group android:checkableBehavior="single">
+            <item
+                android:id="@+id/activity_main_drawer_annonces"
+                android:icon="@drawable/ic_offre"
+                android:title="Mes Annonces" />
+            <item
+                android:id="@+id/activity_main_drawer_categories"
+                android:icon="@drawable/ic_categorie"
+                android:title="Categories" />
+            <item
+                android:id="@+id/activity_main_drawer_search"
+                android:icon="@drawable/ic_search"
+                android:title="Recherche" />
+            <item
+                android:id="@+id/activity_main_drawer_favoris"
+                android:icon="@drawable/ic_favoris"
+                android:title="Mes favoris" />
+        </group>
+
+    <item android:title="Communicate">
+            <menu>
+                <group android:checkableBehavior="single">
+                    <item
+                        android:id="@+id/activity_main_drawer_facebook"
+                        android:icon="@drawable/ic_facebook"
+                        android:title="Facebook" />
+                    <item
+                        android:id="@+id/activity_main_drawer_linkedin"
+                        android:icon="@drawable/ic_linkedin"
+                        android:title="Linkedin" />
+                </group>
+            </menu>
+    </item>
+
+    <item android:title="Settings">
+    <menu>
+        <group android:checkableBehavior="single">
+            <item
+                android:id="@+id/contact"
+                android:icon="@drawable/ic_contact"
+                android:title="Nous contacter" />
+            <item
+                android:id="@+id/apropos"
+                android:icon="@drawable/ic_propos"
+                android:title="A propos" />
+        </group>
+    </menu>
+    </item>
+</menu>

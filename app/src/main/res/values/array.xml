@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="motcletypelist">
+        <item>@string/motcletype1</item>
+        <item>@string/motcletype2</item>
+        <item>@string/motcletype3</item>
+        <item>@string/motcletype4</item>
+    </string-array>
+</resources>
